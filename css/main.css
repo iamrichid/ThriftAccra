@@ -1,0 +1,28 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+@media only screen and (max-width: 640px) {
+  body {
+    background-color: lightblue;
+  }
+
+ .under-constructions{display:flex;width: 100%;height: 640px;padding: 0  !important;background-size: 100%;background-repeat: no-repeat;background-color: #000;background-image: url("/images/under-constructiion.png");}
+
+  .one{
+    width: 100%;
+    margin-top: auto;
+    margin-left: 30px;
+    justify-self: center;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .one h2{
+    /* margin: auto; */
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    align-items: center;
+  }
+}
