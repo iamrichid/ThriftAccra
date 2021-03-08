@@ -24,13 +24,18 @@ html {
   font-family: 'Montserrat', sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  width:100%; 
+  width:100%;
   color: #fff;
   background-image: url("/images/under-constructiion.png");
   height: 100vh;
-  background-color: bisque;
+  background-position: center;
+  /* background-color: bisque; */
+  background-size: cover;
+  object-fit: cover;
+  padding-bottom: 24px;
+  background-repeat: no-repeat;
 }
 
 .brand-name{
@@ -44,8 +49,8 @@ html {
 
 .about-us{
   padding: 16px;
-  padding-bottom: 60px;
-  text-align:center ;
+  padding-bottom: 24px;
+  text-align:center;
 }
 
 
