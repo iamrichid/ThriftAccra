@@ -33,23 +33,28 @@ html {
   background-position: center;
   /* background-color: bisque; */
   background-size: cover;
-  padding-bottom: 20%;
+  padding-bottom: 20%; 
   background-repeat: no-repeat;
 }
 
 .brand-name{
   text-align:center ;
+  font-size: 1,5em;
+
 }
 
 .brand-name h2{
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
+  font-size: 1,5em;
 }
 
 .about-us{
+  font-weight: 300px;
   padding: 16px;
   padding-bottom: 24px;
   text-align:center;
+  font-size: 1,5em;
 }
 
 
@@ -58,6 +63,17 @@ html {
   color: #fff;
   padding: 20px;
   background-color: #000;
+}
+
+
+.login{
+  padding: 20px 0;
+}
+
+.login a {
+  color:#fff;
+  text-decoration: none;
+  font-weight: 500;
 }
 
 .two{
