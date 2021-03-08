@@ -33,7 +33,6 @@ html {
   background-position: center;
   /* background-color: bisque; */
   background-size: cover;
-  object-fit: cover;
   padding-bottom: 24px;
   background-repeat: no-repeat;
 }
